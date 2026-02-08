@@ -431,16 +431,7 @@ export default function Navbar() {
 
                                     <div className="border-t my-2" style={{ borderColor: `${colors.gold}30` }}></div>
 
-                                    <DropdownMenuItem className="focus:bg-slate-50">
-                                        <Link
-                                            href="/client-portal"
-                                            className="w-full px-2 py-2 font-semibold"
-                                            style={{ color: colors.navyBlue }}
-                                            onClick={() => setMobileOpen(false)}
-                                        >
-                                            Client Portal
-                                        </Link>
-                                    </DropdownMenuItem>
+
                                     <DropdownMenuItem className="focus:bg-slate-50">
                                         <Link
                                             href="/request-consultation"
@@ -448,7 +439,7 @@ export default function Navbar() {
                                             style={{ color: colors.gold }}
                                             onClick={() => setMobileOpen(false)}
                                         >
-                                            Get Started →
+                                            Become a member →
                                         </Link>
                                     </DropdownMenuItem>
                                 </div>
