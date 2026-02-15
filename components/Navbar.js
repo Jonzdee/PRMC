@@ -436,7 +436,7 @@ export default function Navbar() {
 
                                     <DropdownMenuItem className="focus:bg-slate-50">
                                         <Link
-                                            href="/request-consultation"
+                                            href="/member"
                                             className="w-full px-2 py-2 font-bold"
                                             style={{ color: colors.gold }}
                                             onClick={() => setMobileOpen(false)}
