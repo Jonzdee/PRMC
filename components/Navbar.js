@@ -306,7 +306,7 @@ export default function Navbar() {
                             }}
                             asChild
                         >
-                            <Link href="/request-consultation">Become A Member</Link>
+                            <Link href="/member">Become A Member</Link>
                         </Button>
                     </div>
 
