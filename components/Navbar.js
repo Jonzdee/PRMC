@@ -38,6 +38,7 @@ export default function Navbar() {
     const mainLinks = [
         { name: "Home", href: "/" },
         { name: "About Us", href: "/about" },
+       
     ];
 
     const servicesLinks = [
@@ -92,6 +93,7 @@ export default function Navbar() {
                                 height={50}
                                 className="cursor-pointer rounded-full transition-all duration-300 group-hover:opacity-90"
                                 priority
+                            
                             />
                         </Link>
                     </div>
